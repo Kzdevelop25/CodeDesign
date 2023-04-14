@@ -1,0 +1,142 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all .3s ease;
+}
+
+body {
+    /* background-color: rgba(29, 161, 242, .1); */
+    /* background-color: black; */
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container {
+    width: 80%;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-twitter {
+    width: 601px;
+    padding: 35px 31px;
+    background-color: #fff;
+    border: 1px solid rgba(29, 161, 242, .2);
+    border-radius: 10px;
+    box-shadow: 0 0 20px -5px rgba(29, 161, 242, .2);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.card-twitter .card-headline {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-twitter .profile {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+
+.card-twitter .profile img {
+    width: 50px;
+    height: 50px;
+}
+
+.card-twitter .title .name {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.card-twitter .title .link {
+    font-size: 16px;
+    color: rgba(0, 0, 0, .6);
+    text-decoration: none;
+}
+
+.card-twitter img.logo-twitter {
+    width: 30px;
+    height: 30px;
+}
+
+.card-twitter .card-subline .quote {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.quote .blue {
+    color: #1DA1F2;
+    cursor: pointer;
+}
+
+.action-post {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.action-post .like-post {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.action-post .icon {
+    width: 24px;
+    height: 24px;
+}
+
+.action-post .quantity-like,
+.action-post .date-post .date {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+@media screen and (width <=400px) {
+
+    .card-twitter .profile img {
+        width: 45px;
+        height: 45px;
+    }
+
+    .card-twitter img.logo-twitter {
+        width: 25px;
+        height: 25px;
+    }
+
+    .card-twitter .card-subline .quote {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .action-post .icon {
+        width: 20px;
+        height: 20px;
+    }
+
+}
+
+@media screen and (width <=375px) {
+
+    .action-post .quantity-like,
+    .action-post .date-post .date {
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (width <=340px) {
+
+    .action-post .quantity-like,
+    .action-post .date-post .date {
+        font-size: 12.5px;
+    }
+
+}
