@@ -9,7 +9,7 @@ body {
     --Source-Sans-Pro: "Source Sans Pro", sans-serif;
     --DM-Sans: "DM Sans", sans-serif;
     font-family: var(--Source-Sans-Pro);
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 .container {
