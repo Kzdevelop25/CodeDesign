@@ -12,4 +12,4 @@ Finally, it's time to start implementing the design into code! Use your exported
 
 
 design by **Nauval**
-challenge ![codedesign](https://codedesign.dev/challenge/twitter-embed)
+challenge [codedesign](https://codedesign.dev/challenge/twitter-embed)
