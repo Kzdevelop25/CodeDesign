@@ -11,5 +11,5 @@ After you have a good understanding of the design, you can start exporting all o
 Finally, it's time to start implementing the design into code! Use your exported assets and the design file as a reference as you work to create a functional and visually appealing implementation of the design.
 
 
-design by Nauval
-challenge ![codedesign.dev](https://codedesign.dev/challenge/twitter-embed)
+design by **Nauval**
+challenge ![codedesign](https://codedesign.dev/challenge/twitter-embed)
